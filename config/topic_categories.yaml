@@ -1,0 +1,77 @@
+categories:
+  - name: tech_trends
+    display_name: "科技前沿"
+    keywords:
+      - "AI"
+      - "人工智能"
+      - "大模型"
+      - "芯片"
+      - "量子计算"
+      - "新能源"
+      - "机器人"
+      - "VR"
+      - "AR"
+      - "区块链"
+    sources:
+      - weibo
+      - zhihu
+      - baidu
+      - arxiv
+    priority_weight: 1.2
+    enabled: true
+
+  - name: history
+    display_name: "历史人文"
+    keywords:
+      - "历史"
+      - "古代"
+      - "朝代"
+      - "战争"
+      - "文明"
+      - "考古"
+      - "人物传记"
+    sources:
+      - zhihu
+      - baidu
+    priority_weight: 1.0
+    enabled: true
+
+  - name: economics
+    display_name: "经济投资"
+    keywords:
+      - "经济"
+      - "投资"
+      - "理财"
+      - "股票"
+      - "基金"
+      - "房产"
+      - "通胀"
+      - "GDP"
+      - "美联储"
+      - "央行"
+    sources:
+      - weibo
+      - zhihu
+      - baidu
+    priority_weight: 1.1
+    enabled: true
+
+  - name: automotive
+    display_name: "汽车评测"
+    keywords:
+      - "汽车"
+      - "新能源车"
+      - "评测"
+      - "比亚迪"
+      - "特斯拉"
+      - "蔚来"
+      - "小鹏"
+      - "理想"
+      - "SUV"
+      - "电动车"
+    sources:
+      - weibo
+      - baidu
+      - zhihu
+    priority_weight: 1.0
+    enabled: true
