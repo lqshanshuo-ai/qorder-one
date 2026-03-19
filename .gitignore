@@ -26,6 +26,7 @@ next-env.d.ts
 # IDE
 .vscode/
 .idea/
+.qoder/
 *.swp
 *.swo
 
