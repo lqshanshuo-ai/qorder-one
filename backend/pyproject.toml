@@ -1,0 +1,13 @@
+[project]
+name = "content-creator-platform"
+version = "0.1.0"
+description = "Content creator automation platform for short video production"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

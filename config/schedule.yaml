@@ -1,0 +1,16 @@
+jobs:
+  daily_crawl:
+    description: "Daily crawling from all sources"
+    cron: "0 6 * * *"
+    enabled: true
+
+  topic_push:
+    description: "Push candidate topics to DingDing"
+    cron: "0 7 * * *"
+    enabled: true
+
+  cleanup:
+    description: "Clean up old temporary files"
+    cron: "0 2 * * *"
+    retention_days: 30
+    enabled: true
